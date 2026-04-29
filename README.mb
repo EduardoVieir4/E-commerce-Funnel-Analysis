@@ -30,12 +30,27 @@ Os dados foram estruturados em um modelo analítico no PostgreSQL:
   * `sessions` → canal, campanha, data
   * `customers` → tipo de usuário, região, device
 
+![diagrama](sql/diagrama.png)
+
+---
+
+## 📊 Dashboard
+
+O dashboard foi desenvolvido no Excel para visualização das principais métricas do negócio e inclui:
+
+* KPIs principais (receita, conversão, ticket médio)
+* Funil de vendas
+* Receita e conversão por canal
+* Receita por região
+* Análise por tipo de usuário
+* Evolução temporal de receita e ticket médio
+
+![Dashboard](dashboard/dashboard.png)
 
 ---
 
 ## 🔍 Análises Realizadas
 
-* Taxa de conversão geral
 * Análise de drop-off no funil
 * Receita e conversão por canal
 * Performance por campanha
@@ -96,19 +111,6 @@ A redução da receita parece estar mais associada à queda no volume de vendas 
 
 ---
 
-## 📊 Dashboard
-
-O dashboard foi desenvolvido no Excel e inclui:
-
-* KPIs principais (receita, conversão, ticket médio)
-* Funil de vendas
-* Receita e conversão por canal
-* Receita por região
-* Análise por tipo de usuário
-* Evolução temporal de receita e ticket médio
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 * PostgreSQL
@@ -127,11 +129,8 @@ O projeto evidencia a importância de decisões orientadas por dados para melhor
 
 ---
 
-## 📌 Próximos Passos
+## 🤝 Contato
 
-* Implementar análise de cohort (retenção)
-* Testes A/B em etapas críticas do funil
-* Otimização da experiência mobile
-* Análise mais aprofundada de campanhas e segmentação
+Eduardo Vieira Nogueira
 
----
+📧 Email: eduardo.nogueiiira@gmail.com 💼 LinkedIn: www.linkedin.com/in/eduardo-nogueira-25440519b
