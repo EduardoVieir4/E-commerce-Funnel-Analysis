@@ -17,6 +17,21 @@ O dataset utilizado foi obtido no Kaggle (Direct-to-Consumer E-Commerce Funnel D
 
 ---
 
+## 📊 Dashboard
+
+O dashboard foi desenvolvido no Excel para visualização das principais métricas do negócio e inclui:
+
+* KPIs principais (receita, conversão, ticket médio)
+* Funil de vendas
+* Receita e conversão por canal
+* Receita por região
+* Análise por tipo de usuário
+* Evolução temporal de receita e ticket médio
+
+![Dashboard](dashboard/dashboard.png)
+
+---
+
 ## 🏗️ Modelagem de Dados
 
 Os dados foram estruturados em um modelo analítico no PostgreSQL:
@@ -31,21 +46,6 @@ Os dados foram estruturados em um modelo analítico no PostgreSQL:
   * `customers` → tipo de usuário, região, device
 
 ![diagrama](sql/diagrama.png)
-
----
-
-## 📊 Dashboard
-
-O dashboard foi desenvolvido no Excel para visualização das principais métricas do negócio e inclui:
-
-* KPIs principais (receita, conversão, ticket médio)
-* Funil de vendas
-* Receita e conversão por canal
-* Receita por região
-* Análise por tipo de usuário
-* Evolução temporal de receita e ticket médio
-
-![Dashboard](dashboard/dashboard.png)
 
 ---
 
@@ -131,6 +131,5 @@ O projeto evidencia a importância de decisões orientadas por dados para melhor
 
 ## 🤝 Contato
 
-Eduardo Vieira Nogueira
-
-📧 Email: eduardo.nogueiiira@gmail.com 💼 LinkedIn: www.linkedin.com/in/eduardo-nogueira-25440519b
+- 📧 Email: eduardo.nogueiiira@gmail.com 
+- 💼 LinkedIn: www.linkedin.com/in/eduardo-nogueira-25440519b
