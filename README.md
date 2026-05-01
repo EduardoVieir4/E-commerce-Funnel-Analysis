@@ -45,7 +45,7 @@ Os dados foram estruturados em um modelo analítico no PostgreSQL:
   * `sessions` → canal, campanha, data
   * `customers` → tipo de usuário, região, device
 
-![diagrama](sql/diagrama.png)
+![diagrama](sql/diagrama1.png)
 
 ---
 
